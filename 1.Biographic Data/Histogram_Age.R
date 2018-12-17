@@ -6,4 +6,5 @@ barplot(table(factor(data_hist1$Age)),xlab="Age in years",ylab="Frequency",col="
 mean(data_hist$Age[1:15])
 
 ##########How r u #################
+########How do u do ##########
 
