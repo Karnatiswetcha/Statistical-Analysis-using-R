@@ -1,7 +1,7 @@
 ############### Histogram for  Gender Distribution ######################
 
 mydata<-read.table("C:\\Users\\Swetcha\\Desktop\\Stats\\Project\\Methodist microsurgery study\\MicrosurgeryPerformance1.csv",header = TRUE,sep=",")
-sex<-mydata$Sex[1:16]
+sex<-mydata$Sex[1:15]
 sex1<-as.numeric(levels(sex))[sex]
 x1<-as.data.frame(table(sex1))
 x1$sex<-c("Male","Female")
