@@ -1,5 +1,5 @@
 
-################ Histogram for Age Distribution ####################
+####### Histogram for Age Distribution #####
 data_hist<-read.csv("C:\\Users\\Swetcha\\Desktop\\Stats\\Project\\Methodist microsurgery study\\MicrosurgeryPerformance1.csv",header = TRUE,sep=",")
 data_hist1<-data_hist[1:15, ]
 data_hist1
