@@ -5,7 +5,7 @@ sex<-mydata$Sex[1:15]
 sex1<-as.numeric(levels(sex))[sex]
 x1<-as.data.frame(table(sex1))
 x1$sex<-c("Male","Female")
-#col1<-c("Pink","Blue")
+#col1<-c("Pin","Blue")
 plot.new()
 ggplot(x1,aes(x=x1$sex))+
   geom_bar(aes(y=x1$Freq,fill=x1$sex),stat="identity",width=0.5,show.legend = F)+
